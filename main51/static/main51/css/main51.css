@@ -16,3 +16,32 @@ aside img{
     width: 100px;
     float: left;
 }
+
+.btn-1 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.btn-1:hover {background-color: #3e8e41}
+
+.btn-1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.main-layout {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
